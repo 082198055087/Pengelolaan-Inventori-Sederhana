@@ -4,25 +4,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Utama Inventori</title>
+    <title>FrontEnd</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/overlayscrollbars@2.11.0/styles/overlayscrollbars.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@4.10.0/dist/css/adminlte.min.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <nav class="navbar">
+    <div class="brand" ><img src="img/logo.png" alt="logo">test</div>
+        <button id="toggle" class="toggle" type="button" aria-controls="menu" aria-expanded="false"
+            aria-label="Buka menu navigasi">☰</button>
+            <ul id="menu" class="menu">
+                <li> <a href="#about">About Us</a> </li>
+                <li> <a href="#catalog">Catalog</a> </li>
+                <li> <a href="#contact">Contact</a> </li>
+            </ul>
+    </nav>
 
-    <header>
-        <h1>Inventori Mamat Gunshop</h1>
-        <h2>Tes</h2>
+    <header class="hero" id="home">
+        <div class="hero-content">
+        <h1>Selamat Datang di <span>FLOWY</span></h1>
+        <p class="hero-copy">Temukan bunga yang membuat setiap sudut rumah terasa lebih hidup.</p>
+        </div>
     </header>
 
+    <main class="page-content">
+        <section class="section about-section" aria-labelledby="about">
+            <div class="section-heading">
+                <h1 id="about">About Us</h1>
+                <h2>Mengapa Harus Memilih Kami</h2>
+                <h2>Untuk Mempercantik Halaman Rumah anda?</h2>
+            </div>
+            <p class="about-copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores perspiciatis, in voluptas nisi nulla,
+                officiis nesciunt doloribus recusandae adipisci ipsam itaque architecto minus eius, voluptatum
+                aspernatur excepturi obcaecati ex non at consectetur magni cupiditate sunt ipsa cumque? Corrupti, fuga
+                perspiciatis voluptas minima quos sequi quam quas sapiente rerum quod recusandae officiis tenetur at
+                vitae voluptatem odit cum molestiae adipisci maiores consectetur. Officia beatae sequi quas, ratione
+                corporis accusantium suscipit minima eligendi porro rem doloremque ut, unde repudiandae saepe, obcaecati
+                neque consequatur quibusdam assumenda error cum! Ipsam quasi exercitationem optio incidunt sequi ex
+                corporis iste praesentium necessitatibus nihil laboriosam, molestias odit. Illo odit provident voluptas
+                aliquam quam nobis reprehenderit, voluptate assumenda? Sed officiis itaque quaerat iusto nihil? Iure
+                pariatur ipsam veritatis quod sunt, aut placeat eaque ullam eos accusantium animi error. Sunt, cum.
+                Maiores, possimus deleniti. Reiciendis eligendi mollitia exercitationem. Pariatur a repellendus unde
+                explicabo dicta sint corrupti possimus facilis. Suscipit aperiam blanditiis eius est quia voluptatum
+                libero voluptates, quam autem consectetur quos nostrum quo, facere commodi doloremque. Rem est non quis
+                delectus aut repellat libero laudantium, voluptates architecto eligendi. Delectus at maxime optio
+                dolorem ea accusantium ab voluptate placeat, ullam soluta asperiores iste dignissimos et minima modi
+                doloremque, deleniti ad!</p>
+        </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/overlayscrollbars@2.11.0/browser/overlayscrollbars.browser.es6.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/admin-lte@4.10.0/dist/js/adminlte.min.js"></script>
+        <section class="section" aria-labelledby="catalog">
+            <div class="section-heading">
+                <h1 id="catalog">Catalog</h1>
+            </div>
+
+            <div class="catalog">
+                <figure class="flower-card"><img src="img/rose1.jpeg" alt="catalog 1" loading="lazy"><figcaption>Mawar</figcaption>
+                </figure>
+                <figure class="flower-card"><img src="img/rose2.jpeg" alt="catalog 2"  loading="lazy"><figcaption>Mawar</figcaption>
+                </figure>
+                <figure class="flower-card"><img src="img/rose3.jpeg" alt="catalog 3" loading="lazy"><figcaption>Mawar</figcaption>
+                </figure>
+                <figure class="flower-card"><img src="img/rose4.jpeg" alt="catalog 4" loading="lazy"><figcaption>Mawar</figcaption>
+                </figure>
+                <figure class="flower-card"><img src="img/rose5.jpeg" alt="catalog 5" loading="lazy"><figcaption>Mawar</figcaption>
+                </figure>
+                <figure class="flower-card"><img src="img/rose6.jpeg" alt="catalog 6" loading="lazy"><figcaption>Mawar</figcaption>
+                </figure>
+                <figure class="flower-card"><img src="img/aster1.jpeg" alt="catalog 1" loading="lazy"><figcaption>Aster</figcaption>
+                </figure>
+                <figure class="flower-card"><img src="img/aster2.jpeg" alt="catalog 2" loading="lazy"><figcaption>Aster</figcaption>
+                </figure>
+                <figure class="flower-card"><img src="img/aster3.jpeg" alt="catalog 3" loading="lazy"><figcaption>Aster</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="contact">
+            <div class="section-heading">
+                <h1 id="contact">Contact</h1>
+            </div>
+            <div class="contact-container">
+                <div class="contact">
+                    <h3>Instagram</h3>
+                    <label for="instagram">Brilliant Abidzhar Z. :</label> <br>
+                    <a href="https://www.instagram.com/brllnt.svntn?stkn=MmpzbGhzaHFxZHJ4"
+                        target="_blank">@brllnt.svntn</a>
+                </div>
+
+                <div class="contact">
+                    <h3>Email</h3>
+                    <label for="email">Brilliant Abidzhar Z. :</label> <br>
+                    <a href="mailto:teamo@gmail.com" target="_blank">teamo@gmail.com</a>
+                </div>
+
+                <div class="contact">
+                    <h3>WhatsApp</h3>
+                    <label for="whatsapp">Brilliant Abidzhar Z. :</label> <br>
+                    <a href="https://wa.me/6285274969300" target="_blank">+62 852-7496-9300</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; Brilliant Wanna Be Billionaire</p>
+    </footer>
+
+    <script src="app.js"></script>
 </body>
 
 </html>
